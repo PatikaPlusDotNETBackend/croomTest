@@ -1,0 +1,10 @@
+autograding:
+  - name: Build the project
+    run: dotnet build
+    timeout: 60
+    points: 10
+
+  - name: Run unit tests
+    run: dotnet test --no-build --verbosity normal
+    timeout: 120
+    points: 90
